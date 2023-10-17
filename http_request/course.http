@@ -1,0 +1,20 @@
+### コース情報取得処理
+GET http://localhost:10001/api/v1/course
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODg1NjE4MDgsInVzZXJfaWQiOjF9.u7jvm26llzOSDvvR2g2MQMMKwWvi8ELoHSH2kHVpDq8
+
+### コース登録処理
+POST http://localhost:10001/api/v1/course/create
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODg1NjE4MDgsInVzZXJfaWQiOjF9.u7jvm26llzOSDvvR2g2MQMMKwWvi8ELoHSH2kHVpDq8
+
+### コース編集処理
+POST http://localhost:10001/api/v1/course/edit
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODg1NjE4MDgsInVzZXJfaWQiOjF9.u7jvm26llzOSDvvR2g2MQMMKwWvi8ELoHSH2kHVpDq8
+
+### コース削除処理
+POST http://localhost:10001/api/v1/course/delete
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODg1NjE4MDgsInVzZXJfaWQiOjF9.u7jvm26llzOSDvvR2g2MQMMKwWvi8ELoHSH2kHVpDq8
+
